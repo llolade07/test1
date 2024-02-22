@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 100vw;
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navitems {
+    margin: 0px;
+}
+
+
+header {
+    background: ghostwhite;
+}
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(157, 103, 3);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 1px;
+    font-size: 2rem;
+    padding: 15px;
+    text-shadow: 5px 5px 10px yellow;
+}
+
+.buttons {
+    position: relative;
+    left: 100px;
+}
+
+span {
+    color: green;
+}
+
+
+.listitems {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background: green;
+    padding: 7px;
+    font-size: 12px;
+    font-weight: bolder;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.listitems a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 1px;
+}
+
+.listitems a:hover {
+    background-color: green;
+}
+
+main {
+   margin-top: 20px 20px 0px 20px;
+   justify-items: center;
+
+}
+
+.column {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    margin-top: 10px;
+    color: white;
+}
+
+
+.jumb {
+    margin-top: 20px;
+    width: 90vw;
+    height: 250px;
+    margin-left: 18px;
+    border: 1px solid black;
+}
+
+.about {
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius:40%;
+    padding: 40px;
+    background: url(../images/dimfertilizer.jpg);
+    background-size:cover;
+    text-align: center;
+    width: 90vw;
+    margin-left: 20px;
+}
+
+div h5 {
+    color: white;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div p {
+    color: white;
+    margin-top: 50px;
+    font-weight: bolder;    
+}
+
+#aim {
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 14px;
+    margin-right: 14px;
+    position: relative;
+    justify-content: center;
+    height: 250px;
+    background: rgb(1, 119, 1);
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+ #aim p{
+    text-align:justify;
+    color: white;
+}
+
+.aboutus {
+    margin-top: 20px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border: 2px solid black;
+    background: url(../images/aboutus.jpg);
+    background-size:cover;
+    object-fit: contain;
+    background-repeat: no-repeat; 
+    height: 400px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#abtus {
+    padding: 10px;
+}
+
+
+section p {
+    position: relative;
+    margin-top: 110px;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    text-align: justify;     
+}
+
+article {
+    background: white;
+}
+
+.procontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+
+}
+article h2 {
+    color: green;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+ }
+
+ .happy {
+    text-align: center;
+    height: 300px;
+    background-color: #557c3e;
+ }
+
+ #hap {
+    color: white;
+    text-transform: uppercase;
+    height: 100px;
+    margin: 20px auto 0 auto;
+    padding-top: 25px;
+ }
+ 
+ #con {
+    margin: 0 auto 0 auto;
+    padding-top: 18px;
+    color: white;
+    border: 1px 1px 0 1px solid green;
+    border-radius: 40px;
+    width: 50vw;
+    height: 60px;
+    background-color: #222;
+ }
+
+ .procontainer {
+    gap: 30px;
+ }
+
+ .procontainer p {
+    text-align:center;
+    border-radius: 3px;
+    color: white;
+    margin-top: -4px;
+    background: rgb(8, 103, 92);
+    width: 100px;
+    margin-left: 25px;
+    font-size:12px;
+}
+
+
+
+.icon-container {
+   display:flex;
+   gap: 12px;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.happy p {
+    color: white;
+    margin-top: 10px;
+}
+
+.happy a {
+    text-decoration: none;
+    color: white;
+}
+
+#facebook {
+    color:blue;
+}
+
+#whatsapp {
+    color: rgb(76, 207, 76)
+}
+
+#twitter {
+    color: rgb(22, 163, 210);
+}
+
+#insta {
+    color: palevioletred;
+}
+
+
+            /*footer*/
+.panel-footer {
+    font-family: 'Oxygen', sans-serif;
+    /*margin-top: 40px;*/
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+  }
+  .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #hours, #address {
+    line-height: 2;
+  }
+  #hours > span, #address > span {
+    font-size: 1.5rem;
+    color: white;
+  }
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8rem;
+  }
+  #testimonials {
+    margin-top: -100px;
+    font-style: italic;
+    text-align: center;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  
+.line {
+    border-bottom: .5px solid white;
+    border-radius: 2%;
+    width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.row section {
+    color: white;
+  }
+
+  .text-center {
+    text-align: center;
+    color: white;
+    margin-bottom: -22px;
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .foot {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+/* productpage */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    grid-template-areas:
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.procontainer span {
+   text-align: justify;
+}
+
+/********************************large device only*****************************************/
+@media (min-width: 1000px) {
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}    
+
+header {
+    /*margin: 0px 200px 0px 200px;*/
+    background: white;
+}
+.listitems {
+    margin: 0px 200px 0px 200px;
+}
+
+.listitems a:hover {
+    color: grey;
+    background-color: none;
+}
+
+
+.jumb {
+    margin-top: 50px;
+    border: 5px solid yellowgreen;
+    width: 100%;
+    height: 600px
+}
+
+main {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.about {
+    width: 100%;
+    height: 300px;
+}
+
+
+#aim {
+    position: relative;
+    justify-content: center;
+    height: 300px;
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 1%;
+    background: rgb(1, 119, 1);
+    padding: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.procontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+
+}
+
+.procontainer p {
+    color: white;
+    margin-top: -4px;
+    background: green;
+    width: 100px;
+    margin-left: 45px;
+}
+
+.procontainer a {
+    text-decoration: none;
+}
+
+
+#testimonials p {
+    text-align: center;
+}
+
+
+.listitems {
+    background: green;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.listitems a {
+    margin: 10px;
+}
+
+.aboutus {
+    background: url(../images/aboutus.jpg);
+    background-size:cover;
+    object-fit: contain;
+    background-repeat: no-repeat; 
+    height: 600px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 50px;
+}
+
+.happy {
+    text-align: center;
+    height: 200px;
+    background-color: #557c3e;
+    border-top: 2px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 350px;
+ }
+
+ .line {
+    display: none;
+ }
+
+
+ .row section {
+    text-align: left;
+ }
+
+ div .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 200px 
+    
+ }
+
+ .foot {
+    text-align: center;
+    margin-bottom: -40px;
+  }
+
+}
