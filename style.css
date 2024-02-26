@@ -57,6 +57,7 @@ span {
 }
 
 .listitems a {
+    font-family:'Times New Roman', Times, serif;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -152,7 +153,7 @@ div h2 {
     margin-left: 14px;
     margin-right: 14px;
     border: 2px solid black;
-    background: url(../images/aboutus.jpg);
+    background: url(aboutus.jpg);
     background-size:cover;
     object-fit: contain;
     background-repeat: no-repeat; 
@@ -183,7 +184,10 @@ article {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
     padding: 10px;
+}
 
+.procontainer a {
+    text-decoration: none;
 }
 article h2 {
     color: green;
