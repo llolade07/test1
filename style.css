@@ -446,7 +446,7 @@ main {
 }
 
 .aboutus {
-    background: url(images/aboutus.jpg);
+    background: url(aboutus.jpg);
     background-size:cover;
     object-fit: contain;
     background-repeat: no-repeat; 
